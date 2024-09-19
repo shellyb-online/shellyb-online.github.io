@@ -1,0 +1,214 @@
+ * {
+     /* overflow: hidden; */
+ }
+
+
+ body {
+     /* width: auto; */
+ }
+
+ .nav {
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     align-items: center;
+     background-color: transparent;
+
+ }
+
+ nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 60%;
+     list-style-type: none;
+
+ }
+
+ .nav a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #nav-items a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #nav-contact a {
+     color: black;
+
+ }
+
+
+ header {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images1/portfolio\ 1.jpg);
+     height: 100vh;
+     position: relative;
+     background-repeat: no-repeat;
+     color: white;
+     /* width: 100%; */
+     background-position: center;
+     background-size: cover;
+ }
+
+ .hero p {
+     font-size: 30px;
+ }
+ /* .header-1-button{
+    color: black;
+    background-color: black;
+ } */
+
+ .about-me img {
+     padding-top: 10px;
+     height: 80vh;
+     /* width: 100%;     */
+ }
+
+ .about-section {
+     margin: auto;
+
+ }
+
+ .about-container {
+     display: flex;
+     justify-content: center;
+     gap: 5%;
+ }
+
+ .hi-there {
+     width: 50%;
+     font-size: 15px;
+     padding-top: 60px;
+
+ }
+
+ .hi-there-1 {
+     border-bottom: 2px solid rgb(77, 74, 74);
+     padding-bottom: 30px;
+ }
+
+
+ .personal-info {
+     display: flex;
+     /* justify-content: center;
+    gap: 5%; */
+     /* font-size: 10px; */
+ }
+
+ .skill-section h1 {
+     text-align: center;
+     padding-top: 30px;
+     font-size: 50px;
+ }
+
+ .skill-container {
+     display: flex;
+     justify-content: space-evenly;
+     font-size: 15px;
+     font-weight: 100%;
+
+ }
+
+ .line-skills {
+     display: flex;
+ }
+
+ .line-education {
+     display: flex;
+ }
+
+ .service-section h3 {
+     font-size: 20px;
+     color: whitesmoke;
+ }
+
+ .about-sec h3{
+    color: red;
+ }
+ 
+
+ .service-section h1 {
+     font-size: 25px;
+     text-align: left;
+ }
+
+ .services-1 {
+     font-size: 15px;
+     text-align: left;
+     
+ }
+
+ .four-container {
+     padding-top: 3%;
+     height: 40vh;
+ }
+
+ .four-designs {
+     display: flex;
+     justify-content: space-evenly;
+     /* gap: 20px; */
+     height: 40vh;
+ }
+
+ .motion {
+     background-color: rgb(77, 73, 73);
+     /* box-shadow: 0 5px 5px 0 rgb(0 0 0 / 0.1), 0 5px 5px -1px rgb(0 0 0 / 0.1) */
+     width: 20%;
+     border-radius: 10px;
+ }
+
+ .motion:hover {
+     box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1)
+ }
+
+ .four-designs a {
+     color: rgb(158, 32, 32);
+ }
+
+ .model-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     grid-column-gap: 25px;
+     grid-row-gap: 20px;
+
+ }
+
+ .six-models h3{
+    /* margin: auto; */
+    color: red;
+ }
+
+ .models-images img {
+     height: 90vh;
+     width: 100%;
+ }
+
+ .about-button h3{
+      font-size: 20px;
+ }
+
+ .about-button h1{
+    font-size: 30px;
+ }
+
+ .form-button h4{
+    font-size: 25px;
+    color: rgb(44, 42, 42);
+ }
+
+ /* .background-form{
+    padding-top: 100px;
+ } */
+
+ .background h3{
+    color: red;
+ }
+
+ .background{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+ }  
