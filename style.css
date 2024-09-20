@@ -28,6 +28,7 @@
  .nav a {
      text-decoration: none;
      color: white;
+     /* text-shadow: 0 0 5px rgba(0 0 0.5); */
  }
 
  #nav-items a {
@@ -55,11 +56,25 @@
  .hero p {
      font-size: 30px;
  }
- /* .header-1-button{
+
+ .hero h1{
+    font-size: 40px;
+ }
+ 
+ .hero-button{
     color: black;
     background-color: black;
- } */
+ }
 
+ .header-1 h1{
+    text-shadow: 0 0 5px rgba(0 0 0.5);
+ }
+
+ /* .header-1{
+    width: 50px;
+    height: 30px;
+
+ } */
  .about-me img {
      padding-top: 10px;
      height: 80vh;
@@ -151,9 +166,12 @@
      /* gap: 20px; */
      height: 40vh;
  }
+ .four-designs h3{
+    color: black;
+ }
 
  .motion {
-     background-color: rgb(77, 73, 73);
+     background-color: rgb(241,237,237);
      /* box-shadow: 0 5px 5px 0 rgb(0 0 0 / 0.1), 0 5px 5px -1px rgb(0 0 0 / 0.1) */
      width: 20%;
      border-radius: 10px;
@@ -164,7 +182,7 @@
  }
 
  .four-designs a {
-     color: rgb(158, 32, 32);
+     color: rgb(223, 16, 16);
  }
 
  .model-container {
@@ -191,11 +209,11 @@
  }
 
  .about-button h1{
-    font-size: 30px;
+    font-size: 20px;
  }
 
  .form-button h4{
-    font-size: 25px;
+    font-size: 30px;
     color: rgb(44, 42, 42);
  }
 
@@ -212,3 +230,26 @@
     justify-content: space-evenly;
     padding-top: 50px;
  }  
+
+.footer-section{
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 5%;
+    /* gap: 10%; */
+}
+
+ .footer-section img{
+    width: 90%;
+    height: 4vh;
+    
+ }
+
+ .social-media{
+    display: flex;
+    /* width: 40%; */
+    justify-content: space-evenly ;
+ }
+
+ /* .social-media p{
+    margin-bottom: 40px;
+ } */
