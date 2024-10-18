@@ -1,34 +1,48 @@
  * {
-     /* overflow: hidden; */
- }
-
-
- body {
-     /* width: auto; */
+     margin: 0;
+     padding: 0;
  }
 
  .nav {
      display: flex;
-     justify-content: space-around;
-     flex-direction: row;
-     align-items: center;
-     background-color: transparent;
-
+     justify-content: center;
+     gap: 45%;
+     padding-top: 3%;
  }
 
  nav ul {
      display: flex;
      flex-direction: row;
-     justify-content: space-evenly;
-     width: 60%;
+     gap: 5%;
+     justify-content: space-between;
      list-style-type: none;
-
  }
 
  .nav a {
      text-decoration: none;
-     color: white;
-     /* text-shadow: 0 0 5px rgba(0 0 0.5); */
+     color: rgb(255, 255, 255);
+ }
+
+ .div1 {
+     padding-right: 11%;
+ }
+
+ .div2 {
+     padding-top: 6%;
+     color: black;
+     font-size: large;
+ }
+
+ .but {
+     padding-top: 5%;
+ }
+
+ .but button {
+     padding: 2%;
+     padding-left: 2%;
+     padding-right: 2%;
+     background-color: rgb(255, 74, 87);
+     border: none;
  }
 
  #nav-items a {
@@ -41,62 +55,54 @@
 
  }
 
+ body {
+     background-color: rgb(35, 38, 58);
+ }
 
- header {
-     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./images1/portfolio\ 1.jpg);
-     height: 100vh;
-     position: relative;
-     background-repeat: no-repeat;
-     color: white;
-     /* width: 100%; */
-     background-position: center;
-     background-size: cover;
+ .hero {
+     width: 80%;
+     /* height: 70vh; */
+     padding-top: 10%;
+     margin: auto;
  }
 
  .hero p {
-     font-size: 30px;
+     font-size: 20px;
+     color: rgb(113, 113, 124);
  }
 
- .hero h1{
-    font-size: 40px;
- }
- 
- .hero-button{
-    color: black;
-    background-color: black;
+ .hero h1 {
+     font-size: 50px;
  }
 
- .header-1 h1{
-    text-shadow: 0 0 5px rgba(0 0 0.5);
+ .hero-button {
+     color: black;
+     background-color: black;
  }
 
- /* .header-1{
-    width: 50px;
-    height: 30px;
+ .header-1 h1 {
+     color: rgba(255, 255, 255, 0.616);
+ }
 
- } */
  .about-me img {
      padding-top: 10px;
      height: 80vh;
-     /* width: 100%;     */
  }
 
  .about-section {
+     width: 80%;
      margin: auto;
-
- }
-
- .about-container {
-     display: flex;
-     justify-content: center;
-     gap: 5%;
  }
 
  .hi-there {
      width: 50%;
      font-size: 15px;
-     padding-top: 60px;
+     padding-top: 10%;
+ }
 
+ .hi-there h3 {
+     color: rgb(255, 74, 87);
+     /* padding-top: 15px; */
  }
 
  .hi-there-1 {
@@ -104,12 +110,11 @@
      padding-bottom: 30px;
  }
 
+ /* .hi-there-div2 {} */
+
 
  .personal-info {
      display: flex;
-     /* justify-content: center;
-    gap: 5%; */
-     /* font-size: 10px; */
  }
 
  .skill-section h1 {
@@ -120,10 +125,8 @@
 
  .skill-container {
      display: flex;
-     justify-content: space-evenly;
      font-size: 15px;
      font-weight: 100%;
-
  }
 
  .line-skills {
@@ -137,12 +140,18 @@
  .service-section h3 {
      font-size: 20px;
      color: whitesmoke;
+     margin: auto;
  }
 
- .about-sec h3{
-    color: red;
+ .about-sec h3 {
+     color: rgb(255, 74, 87);
  }
- 
+
+ .service-section {
+     width: 80%;
+     margin: auto;
+     padding-top: 5%;
+ }
 
  .service-section h1 {
      font-size: 25px;
@@ -152,37 +161,44 @@
  .services-1 {
      font-size: 15px;
      text-align: left;
-     
  }
 
- .four-container {
+ .six-container {
      padding-top: 3%;
-     height: 40vh;
  }
 
- .four-designs {
-     display: flex;
-     justify-content: space-evenly;
-     /* gap: 20px; */
-     height: 40vh;
+ .six-designs {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     grid-column-gap: 40px;
+     grid-row-gap: 40px;
+     width: 80%;
+     margin: auto;
  }
- .four-designs h3{
-    color: black;
+
+ .six-designs h3 {
+     color: whitesmoke;
  }
 
  .motion {
-     background-color: rgb(241,237,237);
-     /* box-shadow: 0 5px 5px 0 rgb(0 0 0 / 0.1), 0 5px 5px -1px rgb(0 0 0 / 0.1) */
-     width: 20%;
-     border-radius: 10px;
+     background-color: rgb(43, 45, 65);
+     box-shadow: 0 3px 3px 0 rgb(0 0 0 / 0.1), 0 3px 3px -1px rgb(0 0 0 / 0.1);
+     padding: 5%;
+     height: 25vh;
+ }
+
+ .motion p {
+     color: rgba(245, 245, 245, 0.582);
+     font-size: 0.9rem;
  }
 
  .motion:hover {
      box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1)
  }
 
- .four-designs a {
-     color: rgb(223, 16, 16);
+ .six-designs a {
+     color: rgb(255, 74, 87);
  }
 
  .model-container {
@@ -191,12 +207,15 @@
      grid-template-rows: repeat(2, 1fr);
      grid-column-gap: 25px;
      grid-row-gap: 20px;
-
  }
 
- .six-models h3{
-    /* margin: auto; */
-    color: red;
+ .six-models h3 {
+     color: rgb(255, 74, 87);
+     margin: auto;
+ }
+
+ .six-models {
+     margin: auto;
  }
 
  .models-images img {
@@ -204,52 +223,63 @@
      width: 100%;
  }
 
- .about-button h3{
-      font-size: 20px;
+ .about-button h3 {
+     font-size: 20px;
  }
 
- .about-button h1{
-    font-size: 20px;
+ .about-button h1 {
+     font-size: 20px;
  }
 
- .form-button h4{
-    font-size: 30px;
-    color: rgb(44, 42, 42);
+ .about-sec {
+     margin: auto;
  }
 
- /* .background-form{
-    padding-top: 100px;
- } */
-
- .background h3{
-    color: red;
+ .form-button h4 {
+     font-size: 30px;
+     color: rgb(255, 74, 87);
  }
 
- .background{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 50px;
- }  
-
-.footer-section{
-    display: flex;
-    /* justify-content: space-evenly; */
-    padding-top: 5%;
-    /* gap: 10%; */
-}
-
- .footer-section img{
-    width: 90%;
-    height: 4vh;
-    
+ .background-form {
+     color: black;
  }
 
- .social-media{
-    display: flex;
-    /* width: 40%; */
-    justify-content: space-evenly ;
+
+ .background-form input {
+     color: black;
+     padding: 10px;
+ }
+
+ .background h3 {
+     color: red;
+ }
+
+ .footer-section {
+     display: flex;
+     /* justify-content: space-evenly; */
+     padding-top: 5%;
+ }
+
+ .footer-section img {
+     width: 90%;
+     height: 4vh;
+
+ }
+
+ .social-media {
+     display: flex;
+     /* width: 40%; */
+     justify-content: space-evenly;
  }
 
  /* .social-media p{
     margin-bottom: 40px;
  } */
+
+ .stay-button button {
+     padding: 2%;
+     padding-left: 15px;
+     background-color: rgb(255, 74, 87);
+     border: none;
+     height: 10px;
+ }
