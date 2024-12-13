@@ -1,362 +1,366 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: center;
-    gap: 40%;
-    background-color: rgb(35, 38, 58);
-    padding-top: 3%;
-    box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
-    height: 7vh;
-    margin: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-  
-  .nav a {
-    text-decoration: none;
-    color: rgb(170, 170, 175);
-  }
-  
-  .div1 {
-    padding-right: 11%;
-  }
-  
-  .div1 h2 {
-    color: rgb(170, 170, 175);
-  }
-  
-  .div2 {
-    padding-top: 2%;
-    color: rgb(170, 170, 175);
-    font-size: large;
-  }
-  
-  .btn {
-    padding-top: 5%;
-  }
-  
-  .btn button {
-    padding: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: rgb(255, 74, 87);
-    border: none;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  
-  .btn button:hover {
-    background-color: rgb(35, 38, 58);
-    border: solid 1px;
-    border-color: rgb(255, 74, 87);
-  }
-  
-  .btn a {
-    color: rgb(35, 38, 58);
-    text-decoration: none;
-  }
-  
-  .btn a:hover {
-    color: rgb(255, 74, 87);
-  }
-  
-  #nav-items a {
-    text-decoration: none;
-    color: rgb(170, 170, 175);
-  }
-  
-  #nav-contact a {
-    color: black;
-  }
-  
-  body {
-    background-color: rgb(35, 38, 58);
-  }
-  
-  .hero {
-    width: 80%;
-    padding-top: 15%;
-    margin: auto;
-  }
-  
-  .hero p {
-    font-size: 20px;
-    color: rgb(113, 113, 124);
-  }
-  
-  .hero h1 {
-    font-size: 50px;
-  }
-  
-  .hero-button {
-    color: black;
-    background-color: black;
-  }
-  
-  .header-1 h1 {
-    color: rgba(255, 255, 255, 0.616);
-  }
-  
-  .about-me img {
-    padding-top: 10px;
-    height: 80vh;
-  }
-  
-  .about-section {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .hi-there {
-    width: 100%;
-    font-size: 15px;
-    padding-top: 15%;
-  }
-  
-  .hi-there h3 {
-    color: rgb(255, 74, 87);
-    font-size: 2rem;
-  }
-  
-  .hi-there-1 {
-    border-bottom: 2px solid rgb(77, 74, 74);
-    padding-bottom: 30px;
-  }
-  
-  .personal-info {
-    display: flex;
-  }
-  
-  .skill-section h1 {
-    text-align: center;
-    padding-top: 30px;
-    font-size: 50px;
-  }
-  
-  .skill-container {
-    display: flex;
-    font-size: 15px;
-    font-weight: 100%;
-  }
-  
-  .line-skills {
-    display: flex;
-  }
-  
-  .line-education {
-    display: flex;
-  }
-  
-  .about-sec h3 {
-    color: rgb(255, 74, 87);
-    font-size: 2rem;
-  }
-  
-  .service-section {
-    width: 80%;
-    margin: auto;
-    padding-top: 5%;
-  }
-  
-  .service-section h1 {
-    font-size: 25px;
-    text-align: left;
-  }
-  
-  .services-1 {
-    font-size: 15px;
-    text-align: left;
-  }
-  
-  .six-container {
-    padding-top: 3%;
-  }
-  
-  .six-designs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 40px;
-    width: 80%;
-    margin: auto;
-  }
-  
-  .six-designs h3 {
-    color: whitesmoke;
-  }
-  
-  .motion {
-    background-color: rgb(43, 45, 65);
-    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 0.1), 0 3px 3px -1px rgb(0 0 0 / 0.1);
-    padding: 5%;
-    width: 80%;
-  }
-  
-  .motion p {
-    color: rgba(245, 245, 245, 0.582);
-    font-size: 0.9rem;
-  }
-  
-  .motion:hover {
-    box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
-  }
-  
-  .six-designs a {
-    color: rgb(255, 74, 87);
-  }
-  
-  .model-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 25px;
-    grid-row-gap: 20px;
-  }
-  
-  .six-models h3 {
-    color: rgb(255, 74, 87);
-    margin: auto;
-  }
-  
-  .six-models {
-    margin: auto;
-  }
-  
-  .models-images img {
-    height: 90vh;
-    width: 100%;
-  }
-  
-  .about-button h3 {
-    font-size: 20px;
-  }
-  
-  .about-button h1 {
-    font-size: 20px;
-  }
-  
-  .about-sec {
-    margin: auto;
-  }
-  
-  .form-button {
-    width: 80%;
-    margin: auto;
-  }
-  
-  .form-button h4 {
-    font-size: 30px;
-    color: rgb(255, 74, 87);
-  }
-  
-  .background-form input {
-    color: black;
-    padding: 15px;
-    width: 30%;
-  }
-  
-  .footer-section {
-    display: flex;
-    padding-top: 5%;
-  }
-  
-  .footer-section img {
-    width: 90%;
-    height: 4vh;
-  }
-  
-  .btn-1 {
-    padding-top: 4%;
-  }
-  .btn-1 button {
-    padding: 20px;
-    background-color: rgb(255, 74, 87);
-    border: none;
-    width: 20%;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  
-  .btn-1 button:hover {
-    background-color: rgb(35, 38, 58);
-    border: solid 1px;
-    border-color: rgb(255, 74, 87);
-  }
-  
-  .btn-1 a {
-    color: rgb(35, 38, 58);
-    text-decoration: none;
-  }
-  
-  .btn-1 a:hover {
-    color: rgb(255, 74, 87);
-  }
-  
-  .connect {
-    padding-top: 5%;
-  }
-  
-  .three-container {
-    padding-top: 3%;
-  }
-  
-  .three-container h2 {
-    color: rgb(255, 74, 87);
-    font-size: 2rem;
-    margin: auto;
-    width: 80%;
-  }
-  
-  .three-designs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 40px;
-    width: 80%;
-    margin: auto;
-  }
-  
-  .motion-1 {
-    background-color: rgb(43, 45, 65);
-    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 0.1), 0 3px 3px -1px rgb(0 0 0 / 0.1);
-    padding: 5%;
-    width: 80%;
-    height: 20vh;
-  }
-  
-  .motion-1:hover {
-      box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
-    }
-  
-  .motion-1 p {
-    color: rgba(245, 245, 245, 0.582);
-    font-size: 0.9rem;
-  }
-  
-  .motion-1 h3{
-      color: whitesmoke;
-  }
-  
-  .motion:hover {
-    box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
-  }
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 40%;
+  background-color: rgb(35, 38, 58);
+  padding-top: 3%;
+  box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
+  height: 7vh;
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: rgb(170, 170, 175);
+}
+
+.div1 {
+  padding-right: 11%;
+}
+
+.div1 h2 {
+  color: rgb(170, 170, 175);
+}
+
+.div2 {
+  padding-top: 2%;
+  color: rgb(170, 170, 175);
+  font-size: large;
+}
+
+.btn {
+  padding-top: 5%;
+}
+
+.btn button {
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgb(255, 74, 87);
+  color: rgb(35, 38, 58);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn button:hover {
+  background-color: rgb(35, 38, 58);
+  border: solid 1px;
+  border-color: rgb(255, 74, 87);
+}
+
+.btn a {
+  color: rgb(35, 38, 58);
+  text-decoration: none;
+}
+
+.btn a:hover {
+  color: rgb(255, 74, 87);
+}
+
+#nav-items a {
+  text-decoration: none;
+  color: rgb(170, 170, 175);
+}
+
+#nav-contact a {
+  color: black;
+}
+
+body {
+  background-color: rgb(35, 38, 58);
+}
+
+.hero {
+  width: 80%;
+  padding-top: 15%;
+  margin: auto;
+}
+
+.hero p {
+  font-size: 20px;
+  color: rgb(113, 113, 124);
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero-button {
+  color: black;
+  background-color: black;
+}
+
+.header-1 h1 {
+  color: rgba(255, 255, 255, 0.616);
+}
+
+.about-me img {
+  padding-top: 10px;
+  height: 80vh;
+}
+
+.about-section {
+  width: 80%;
+  margin: auto;
+}
+
+.hi-there {
+  width: 100%;
+  font-size: 15px;
+  padding-top: 15%;
+}
+
+.hi-there h3 {
+  color: rgb(255, 74, 87);
+  font-size: 2rem;
+}
+
+.hi-there-1 {
+  border-bottom: 2px solid rgb(77, 74, 74);
+  padding-bottom: 30px;
+}
+
+.personal-info {
+  display: flex;
+}
+
+.skill-section h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 50px;
+}
+
+.skill-container {
+  display: flex;
+  font-size: 15px;
+  font-weight: 100%;
+}
+
+.line-skills {
+  display: flex;
+}
+
+.line-education {
+  display: flex;
+}
+
+.about-sec h3 {
+  color: rgb(255, 74, 87);
+  font-size: 2rem;
+}
+
+.service-section {
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.service-section h1 {
+  font-size: 25px;
+  text-align: left;
+}
+
+.services-1 {
+  font-size: 15px;
+  text-align: left;
+}
+
+.six-container {
+  padding-top: 3%;
+}
+
+.six-designs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.six-designs h3 {
+  color: whitesmoke;
+}
+
+.motion {
+  background-color: rgb(43, 45, 65);
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 0.1), 0 3px 3px -1px rgb(0 0 0 / 0.1);
+  padding: 5%;
+  width: 80%;
+}
+
+.motion p {
+  color: rgba(245, 245, 245, 0.582);
+  font-size: 0.9rem;
+}
+
+.motion:hover {
+  box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
+}
+
+.six-designs a {
+  color: rgb(255, 74, 87);
+}
+
+.model-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 20px;
+}
+
+.six-models h3 {
+  color: rgb(255, 74, 87);
+  margin: auto;
+}
+
+.six-models {
+  margin: auto;
+}
+
+.models-images img {
+  height: 90vh;
+  width: 100%;
+}
+
+.about-button h3 {
+  font-size: 20px;
+}
+
+.about-button h1 {
+  font-size: 20px;
+}
+
+.about-sec {
+  margin: auto;
+}
+
+.form-button {
+  width: 80%;
+  margin: auto;
+}
+
+.form-button h4 {
+  font-size: 30px;
+  color: rgb(255, 74, 87);
+}
+
+.background-form input {
+  color: black;
+  padding: 15px;
+  width: 30%;
+}
+
+.footer-section {
+  display: flex;
+  padding-top: 5%;
+}
+
+.footer-section img {
+  width: 90%;
+  height: 4vh;
+}
+
+.btn-1 {
+  padding-top: 4%;
+}
+
+.btn-1 button {
+  padding: 20px;
+  background-color: rgb(255, 74, 87);
+  color: rgb(35, 38, 58);
+  border: none;
+  width: 20%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn-1 button:hover {
+  background-color: rgb(35, 38, 58);
+  border: solid 1px;
+  border-color: rgb(255, 74, 87);
+  color: rgb(255, 74, 87);
+}
+
+.btn-1 a {
+  color: rgb(35, 38, 58);
+  text-decoration: none;
+}
+
+.btn-1 a:hover {
+  color: rgb(255, 74, 87);
+}
+
+.connect {
+  padding-top: 5%;
+}
+
+.three-container {
+  padding-top: 3%;
+}
+
+.three-container h2 {
+  color: rgb(255, 74, 87);
+  font-size: 2rem;
+  margin: auto;
+  width: 80%;
+}
+
+.three-designs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  width: 80%;
+  margin: auto;
+}
+
+.motion-1 {
+  background-color: rgb(43, 45, 65);
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 0.1), 0 3px 3px -1px rgb(0 0 0 / 0.1);
+  padding: 5%;
+  width: 80%;
+  height: 20vh;
+}
+
+.motion-1:hover {
+  box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
+}
+
+.motion-1 p {
+  color: rgba(245, 245, 245, 0.582);
+  font-size: 0.9rem;
+}
+
+.motion-1 h3 {
+  color: whitesmoke;
+}
+
+.motion:hover {
+  box-shadow: 0 7px 7px 0 rgb(0 0 0 / 0.1), 0 7px 7px -1px rgb(0 0 0 / 0.1);
+}
